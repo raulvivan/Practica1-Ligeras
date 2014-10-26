@@ -1,0 +1,109 @@
+@CHARSET "ISO-8859-1";
+@font-face{
+		font-family: Encrypted;
+		src: url(Encrypted.ttf) ;
+	}
+
+body{
+	font-family: "Encrypted", "Times", serif;
+	background-color: #A9A9A9;
+}
+
+*{
+	margin: 0px;
+	margin-left: 3%;
+	margin-right: 3%;
+	padding: 0px;
+}
+
+h1{
+	font-size: 35px;
+	padding: 10px		
+}
+
+h2{
+	border-top: 1px dashed #000000;
+	border-bottom: 1px dashed #000000;
+
+}
+
+h3{
+	margin-top: 10px;
+	color: #000000;
+}
+
+header ul, ol{
+	list-style: none;
+}
+header{
+	height: 53px;
+	background-color: #F4A460;
+}
+
+.titulo{
+	text-align: top;
+}
+
+.cabecera{
+	float: right;
+}
+
+.titulo{
+	float: left;
+}
+
+.menu li a{
+	background-color: #F4A460;
+	display: block;
+	width: 150px;
+	padding: 15px 0px;
+	text-decoration: none;
+	color: #000000;	
+	font-size: 30px;
+}
+
+.menu > li{
+	float: left;
+}
+
+.menu li a:hover{
+	background-color: #F5DEB3;
+}
+
+#tematica{
+	height: 500px;
+	background-color: #008080;
+}
+
+#situacion{
+	height: 1200px;
+	background-color:#A52A2A;
+}
+
+#situacion p, #situacion li{
+	padding: 10px;
+}
+
+.contenido{
+	background-color:#F5DEB3;	
+	color: #000080;
+}
+
+.lista li{
+	margin-bottom: 10px;
+}
+
+#asignaturas{
+	height: 1200px;
+	background-color:#6A5ACD;
+}
+
+.tabla-asignaturas{
+	font-size: 25px;
+}
+
+.tabla-asignaturas td, .tabla-asignaturas th{
+	padding: 5px;
+	text-align: left;
+	color: #000000;
+}
